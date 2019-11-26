@@ -74,7 +74,7 @@ function rovarspraket(word) {
   for (let i = 0; i < word.length; i++) {
     let char = word.charAt(i)
     if (cons.includes(char.toLowerCase())) {
-      result += char + "0" + char
+      result += char + "o" + char
     } else {
       result += char
     }
